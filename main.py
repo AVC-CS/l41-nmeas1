@@ -2,11 +2,12 @@ def main():
 
     N = int(input('Enter the number N: '))
     X = range(N+1)
+    result = []
+
     for i in X:
         powered = pow(2, i)
         print(powered)
-    result = []
-
+        result.append(powered)
     """
     ########################################
     Code Your Program here
