@@ -1,6 +1,11 @@
 def main():
 
     N = int(input('Enter the number N: '))
+    X = range(N)
+    for i in X:
+        N+=1
+        powered = pow(2, i)
+        print(powered)
     result = []
 
     """
