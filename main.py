@@ -1,9 +1,8 @@
 def main():
 
     N = int(input('Enter the number N: '))
-    X = range(N)
+    X = range(N+1)
     for i in X:
-        N+=1
         powered = pow(2, i)
         print(powered)
     result = []
